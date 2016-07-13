@@ -8,7 +8,7 @@ class FeedbackController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    def scaffikd = Feedback
+    def scaffold = Feedback
 
     def show(Feedback feedback) {
         respond feedback
