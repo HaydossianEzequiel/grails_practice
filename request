@@ -2,6 +2,10 @@
 <html>
 <body>
 
+<!DOCTYPE html>
+<html>
+<body>
+
 <h2>Using the XMLHttpRequest object</h2>
 
 <button type="button" onclick="loadXMLDoc()">Change Content</button>
@@ -21,6 +25,9 @@ function loadXMLDoc() {
   xhttp.send();
 }
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
